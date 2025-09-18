@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Releases - Book Haven</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f7f1;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .page-title {
+            text-align: center;
+            margin: 30px 0;
+            color: #2c3e50;
+        }
+        .new-releases {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .release-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+        .release-item::before {
+            content: "NEW";
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background: #e74c3c;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .release-item div {
+            background: #ecf0f1;
+            height: 180px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        .release-date {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Haven</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="fiction.html">Fiction</a>
+        <a href="nonfiction.html">Non-Fiction</a>
+        <a href="bestsellers.html">Bestsellers</a>
+        <a href="newreleases.html">New Releases</a>
+        <a href="about.html">About Us</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="page-title">
+        <h2>New Releases</h2>
+        <p>Fresh off the press</p>
+    </div>
+    <div class="new-releases">
+        <div class="release-item">
+            <div></div>
+            <h3>Tomorrow's Shadow</h3>
+            <p class="release-date">Released: Oct 15, 2023</p>
+            <p>$24.99</p>
+        </div>
+        <div class="release-item">
+            <div></div>
+            <h3>Digital Frontier</h3>
+            <p class="release-date">Released: Oct 10, 2023</p>
+            <p>$22.99</p>
+        </div>
+        <div class="release-item">
+            <div></div>
+            <h3>Silent Echo</h3>
+            <p class="release-date">Released: Oct 5, 2023</p>
+            <p>$21.99</p>
+        </div>
+        <div class="release-item">
+            <div></div>
+            <h3>Urban Legends</h3>
+            <p class="release-date">Released: Oct 1, 2023</p>
+            <p>$23.99</p>
+        </div>
+        <div class="release-item">
+            <div></div>
+            <h3>The Art of Mindfulness</h3>
+            <p class="release-date">Released: Sep 28, 2023</p>
+            <p>$19.99</p>
+        </div>
+        <div class="release-item">
+            <div></div>
+            <h3>Cosmic Journey</h3>
+            <p class="release-date">Released: Sep 25, 2023</p>
+            <p>$26.99</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2023 Book Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>

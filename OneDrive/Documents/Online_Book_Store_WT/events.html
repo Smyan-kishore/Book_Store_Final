@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Book Haven</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f7f1;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .events-container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .events-header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #2c3e50;
+        }
+        .event-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .event-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+        }
+        .event-date {
+            flex: 0 0 100px;
+            text-align: center;
+            background: #3498db;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .event-date .day {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .event-details {
+            flex: 1;
+        }
+        .event-image {
+            flex: 0 0 150px;
+            background: #ecf0f1;
+            border-radius: 4px;
+        }
+        .cta-button {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Haven</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="fiction.html">Fiction</a>
+        <a href="nonfiction.html">Non-Fiction</a>
+        <a href="bestsellers.html">Bestsellers</a>
+        <a href="newreleases.html">New Releases</a>
+        <a href="about.html">About Us</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="events-container">
+        <div class="events-header">
+            <h2>Upcoming Events</h2>
+            <p>Join our literary community</p>
+        </div>
+        <div class="event-list">
+            <div class="event-item">
+                <div class="event-date">
+                    <div class="day">25</div>
+                    <div>Oct 2023</div>
+                </div>
+                <div class="event-details">
+                    <h3>Author Reading: Jane Smith</h3>
+                    <p>Join bestselling author Jane Smith as she reads from her latest novel and participates in a Q&A session.</p>
+                    <p>Time: 6:00 PM - 8:00 PM</p>
+                    <button class="cta-button">RSVP</button>
+                </div>
+                <div class="event-image"></div>
+            </div>
+            <div class="event-item">
+                <div class="event-date">
+                    <div class="day">02</div>
+                    <div>Nov 2023</div>
+                </div>
+                <div class="event-details">
+                    <h3>Book Club Meeting</h3>
+                    <p>This month we're discussing "The Midnight Library" by Matt Haig. New members always welcome!</p>
+                    <p>Time: 7:00 PM - 9:00 PM</p>
+                    <button class="cta-button">RSVP</button>
+                </div>
+                <div class="event-image"></div>
+            </div>
+            <div class="event-item">
+                <div class="event-date">
+                    <div class="day">15</div>
+                    <div>Nov 2023</div>
+                </div>
+                <div class="event-details">
+                    <h3>Children's Story Hour</h3>
+                    <p>Bring the little ones for a magical story hour featuring classic children's books and activities.</p>
+                    <p>Time: 10:00 AM - 11:00 AM</p>
+                    <button class="cta-button">RSVP</button>
+                </div>
+                <div class="event-image"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2023 Book Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>

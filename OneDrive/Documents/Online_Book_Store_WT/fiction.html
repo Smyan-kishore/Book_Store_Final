@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiction Books - Book Haven</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f7f1;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .page-title {
+            text-align: center;
+            margin: 30px 0;
+            color: #2c3e50;
+        }
+        .books-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 25px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .book-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .book-item:hover {
+            transform: translateY(-5px);
+        }
+        .book-item div {
+            background: #ecf0f1;
+            height: 180px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Haven</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="fiction.html">Fiction</a>
+        <a href="nonfiction.html">Non-Fiction</a>
+        <a href="bestsellers.html">Bestsellers</a>
+        <a href="newreleases.html">New Releases</a>
+        <a href="about.html">About Us</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="page-title">
+        <h2>Fiction Collection</h2>
+        <p>Explore worlds of imagination</p>
+    </div>
+    <div class="books-container">
+        <div class="book-item">
+            <div></div>
+            <h3>Epic Fantasy</h3>
+            <p>$22.99</p>
+        </div>
+        <div class="book-item">
+            <div></div>
+            <h3>Romantic Novel</h3>
+            <p>$17.99</p>
+        </div>
+        <div class="book-item">
+            <div></div>
+            <h3>Science Fiction</h3>
+            <p>$19.99</p>
+        </div>
+        <div class="book-item">
+            <div></div>
+            <h3>Historical Fiction</h3>
+            <p>$21.99</p>
+        </div>
+        <div class="book-item">
+            <h3>Mystery Thriller</h3>
+            <p>$18.99</p>
+        </div>
+        <div class="book-item">
+            <div></div>
+            <h3>Literary Fiction</h3>
+            <p>$23.99</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2023 Book Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>

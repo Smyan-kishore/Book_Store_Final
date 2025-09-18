@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Fiction Books - Book Haven</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f7f1;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .page-title {
+            text-align: center;
+            margin: 30px 0;
+            color: #2c3e50;
+        }
+        .category-filter {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .category-filter button {
+            background: #3498db;
+            border: none;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+        }
+        .books-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 25px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .book-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+        }
+        .book-item div {
+            background: #ecf0f1;
+            height: 180px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        img{
+            width: 260px;
+            height: 180px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Haven</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="fiction.html">Fiction</a>
+        <a href="nonfiction.html">Non-Fiction</a>
+        <a href="bestsellers.html">Bestsellers</a>
+        <a href="newreleases.html">New Releases</a>
+        <a href="about.html">About Us</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="page-title">
+        <h2>Non-Fiction Collection</h2>
+        <p>Knowledge and real stories</p>
+    </div>
+    <div class="category-filter">
+        <button>Biography</button>
+        <button>History</button>
+        <button>Science</button>
+        <button>Self-Help</button>
+        <button>Business</button>
+    </div>
+    <div class="books-container">
+        <div class="book-item">
+            <div><img src="scientific-img.webp" alt=""></div>
+            <h3>Scientific Discoveries</h3>
+            <p>$26.99</p>
+        </div>
+        <div class="book-item">
+            <div><img src="bussiness-omg.webp" alt=""></div>
+            <h3>Business Strategy</h3>
+            <p>$24.99</p>
+        </div>
+        <div class="book-item">
+            <div><img src="historical account-nf.webp" alt=""></div>
+            <h3>Historical Account</h3>
+            <p>$22.99</p>
+        </div>
+        <div class="book-item">
+            <div><img src="biography-nf.webp" alt=""></div>
+            <h3>Autobiography</h3>
+            <p>$27.99</p>
+        </div>
+        <div class="book-item">
+            <div><img src="personal-img-nf.webp" alt=""></div>
+            <h3>Personal Growth</h3>
+            <p>$19.99</p>
+        </div>
+        <div class="book-item">
+            <div><img src="travel-guide-n.webp" alt=""></div>
+            <h3>Travel Guide</h3>
+            <p>$21.99</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2023 Book Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>

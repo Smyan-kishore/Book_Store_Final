@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestsellers - Book Haven</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f7f1;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .page-title {
+            text-align: center;
+            margin: 30px 0;
+            color: #2c3e50;
+        }
+        .bestseller-list {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .bestseller-item {
+            display: flex;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .book-image {
+            flex: 0 0 150px;
+            background: #ecf0f1;
+        }
+        .book-details {
+            padding: 20px;
+            flex: 1;
+        }
+        img{
+            width: 160px;
+            height: 220px;
+        }
+        .rank {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-right: 15px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Haven</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="fiction.html">Fiction</a>
+        <a href="nonfiction.html">Non-Fiction</a>
+        <a href="bestsellers.html">Bestsellers</a>
+        <a href="newreleases.html">New Releases</a>
+        <a href="about.html">About Us</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="page-title">
+        <h2>Current Bestsellers</h2>
+        <p>What everyone is reading</p>
+    </div>
+    <div class="bestseller-list">
+        <div class="bestseller-item">
+            <div class="book-image"><img src="book-img-1.webp" alt=""></div>
+            <div class="book-details">
+                <div style="display: flex; align-items: center;">
+                    <span class="rank">1</span>
+                    <h3>The Champion's Mind</h3>
+                </div>
+                <p>By Author Name</p>
+                <p>A captivating story that has taken the world by storm.</p>
+                <p><strong>$24.99</strong></p>
+            </div>
+        </div>
+        <div class="bestseller-item">
+            <div class="book-image"><img src="book-inmg-2.jpg" alt=""></div>
+            <div class="book-details">
+                <div style="display: flex; align-items: center;">
+                    <span class="rank">2</span>
+                    <h3>Ocean's Whisper</h3>
+                </div>
+                <p>By Author Name</p>
+                <p>An unforgettable journey through mystery and adventure.</p>
+                <p><strong>$22.99</strong></p>
+            </div>
+        </div>
+        <div class="bestseller-item">
+            <div class="book-image"><img src="book-img-3.webp" alt=""></div>
+            <div class="book-details">
+                <div style="display: flex; align-items: center;">
+                    <span class="rank">3</span>
+                    <h3>Thinking Forward</h3>
+                </div>
+                <p>By Author Name</p>
+                <p>Transform how you approach problems and solutions.</p>
+                <p><strong>$26.99</strong></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2023 Book Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
